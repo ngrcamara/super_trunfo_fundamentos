@@ -4,7 +4,6 @@
 
 int main()
 {
-    printf("hello world!\n");
     //declaracao e inicializacao de variaveis...
     char estado1 = '\0';
     char codigo_carta1[4] = "";
@@ -36,7 +35,7 @@ int main()
     scanf("%d", &populacao1);
     printf("Area: \n");
     scanf("%f", &area1);
-    printf("PIB: \n");
+    printf("PIB (em bilhoes de reais): \n");
     scanf("%f", &pib1);
     printf("Número de Pontos Turísticos: \n");
     scanf("%d", &pontos_turisticos1);
@@ -56,7 +55,7 @@ int main()
     scanf("%d", &populacao2);
     printf("Area: \n");
     scanf("%f", &area2);
-    printf("PIB: \n");
+    printf("PIB (em bilhoes de reais): \n");
     scanf("%f", &pib2);
     printf("Número de Pontos Turísticos: \n");
     scanf("%d", &pontos_turisticos2);
@@ -68,8 +67,8 @@ int main()
     printf("Código da Carta: %s\n", codigo_carta1);
     printf("Nome da Cidade: %s\n", nome_cidade1);
     printf("População: %d\n", populacao1);
-    printf("Area: %.2f\n", area1);
-    printf("PIB: %.2f\n", pib1);
+    printf("Area: %.2f km2\n", area1);
+    printf("PIB: %.2f bilhoes de reais\n", pib1);
     printf("Número de Pontos Turísticos: %d\n", pontos_turisticos1);
     printf("\n");
 
@@ -78,8 +77,8 @@ int main()
     printf("Código da Carta: %s\n", codigo_carta2);
     printf("Nome da Cidade: %s\n", nome_cidade2);
     printf("População: %d\n", populacao2);
-    printf("Area: %.2f\n", area2);
-    printf("PIB: %.2f\n", pib2);
+    printf("Area: %.2f km2\n", area2);
+    printf("PIB: %.2f bilhoes de reais\n", pib2);
     printf("Número de Pontos Turísticos: %d\n", pontos_turisticos2);
 
 
