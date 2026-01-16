@@ -13,7 +13,7 @@ int main()
     float pib1 = 0.0;
     int pontos_turisticos1 = 0;
     float dens_pop1 = 0;
-    float pib_percapita1 = 0;
+    double pib_percapita1 = 0;
 
 
     char estado2 = '\0';
@@ -24,7 +24,7 @@ int main()
     float pib2 = 0.0;
     int pontos_turisticos2 = 0;
     float dens_pop2 = 0;
-    float pib_percapita2 = 0;
+    double pib_percapita2 = 0;
 
     //leitura dos dados...
     printf("Informe os dados da carta 1:\n");
